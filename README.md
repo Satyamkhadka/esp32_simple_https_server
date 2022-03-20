@@ -22,3 +22,8 @@ Note:
   The private key and certification at the example are not trusted by web browser, because they are not created by CA official, just by ESP-IDF.
   You can alse create your own private key and ceritification by "openssl at ubuntu or others". 
   Espressif has the document "ESP8266_SDKSSL_User_Manual_EN_v1.4.pdf" at "https://www.espressif.com/en/support/download/documents". By it you can gernerate the private key and certification with the fomate of ".pem"
+
+
+# additives
+  This project is made to comply with platforomio (piocore specifically).
+  Change platformio.ini for boards options and other configurations.
