@@ -3,5 +3,5 @@
 
 FILE(GLOB_RECURSE app_sources ${CMAKE_SOURCE_DIR}/src/*.*)
 FILE(GLOB_RECURSE certs ${CMAKE_SOURCE_DIR}/certs/*.*)
-EMBED_TXTFILES ${certs}
-idf_component_register(SRCS ${app_sources})
+idf_component_register(SRCS ${app_sources}
+        EMBED_TXTFILES ${certs})
