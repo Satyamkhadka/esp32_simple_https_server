@@ -1,4 +1,11 @@
-# mbedTLS ESP32 (ESP-IDF) Server Example
+# mbedTLS ESP32 (ESP-IDF)(Platformio) Server Example
+
+Barebones TLS server to server http content.
+
+
+To run: 
+  pio run -t upload -t monitor
+ 
 
 The Example contains a simples mbedTLS server demo.
 
